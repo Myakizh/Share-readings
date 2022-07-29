@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Super Page{% endblock %}
+
+{% block head %}
+{{ super() }}
+{% endblock %}
+
+{% block page_content %}
+<h1>
+    The page uses jinja tamplates.
+</h1>
+
+<div class="container">
+Name of the page is {{data.page}}
+<br>
+It also can use bootstrap(I include it in tha base file), xd
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+{% endblock %}
