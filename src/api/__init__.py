@@ -5,11 +5,13 @@ from services.users import auth_backend, fastapi_users
 
 from .sup import router as sup_router
 from .temp import router as temp_router
+from .auth import router as auth_router
 
 router = APIRouter()
 
 router.include_router(sup_router)
 router.include_router(temp_router)
+router.include_router(auth_router)
 
 router.include_router(
     fastapi_users.get_auth_router(auth_backend), prefix="/auth/jwt", tags=["auth"]

@@ -5,3 +5,4 @@ sqlalchemy
 fastapi-users[sqlalchemy]
 aiosqlite
 jinja2
+python-multipart
