@@ -4,7 +4,7 @@ from fastapi.templating import Jinja2Templates
 
 router = APIRouter()
 
-templates = Jinja2Templates(directory="src/templates/html")
+templates = Jinja2Templates(directory="src/templates")
 
 @router.get("/sing-in", response_class=HTMLResponse)
 def form_post1(request: Request):

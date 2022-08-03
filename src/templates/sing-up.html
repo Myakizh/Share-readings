@@ -31,5 +31,5 @@
 
 {% block scripts %}
 {{ super() }}
-<script src="/src/templates/js/sing-up.js"></script>
+<script src={{ url_for('static', path='/js/sing-up.js') }}></script>
 {% endblock %}
