@@ -1,3 +1,3 @@
 # Share readings
 (Share readings for electricity, water...)
-Add simple html, bootstrap, jinja/.
+добавил наконетста js, теперь он както должен мне json запросики давать
