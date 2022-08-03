@@ -1,3 +1,3 @@
 # Share readings
 (Share readings for electricity, water...)
-добавил наконетста js, теперь он както должен мне json запросики давать
+js через fetch кидает запрос на создания юзера из fastapiusers  и оно работет. теперь фоормьі надо как то в json записать
